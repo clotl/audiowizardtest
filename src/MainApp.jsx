@@ -7,10 +7,10 @@ import ButtonMainApp from "./Component/ButtonMainApp";
 
 let MainApp = () => {
   return (
-    <Layout className={"mt-5"}>
+    <Layout>
       <Row>
         <Col className={"d-flex justify-content-center"}>
-          <p> Comment va Madame Lucette Michu, née le 25/01/1945 </p>
+          <h2> Comment va Madame Lucette Michu, née le 25/01/1945 </h2>
         </Col>
       </Row>
       <Row>

@@ -8,9 +8,9 @@ import styles from "./TopNav.module.css";
 const TopNav = () => {
   return (
     <Col>
-      <Navbar>
-        <NavbarBrand className={styles.logo}>
-          <img src={Logo} alt="audio wizard" />
+      <Navbar className={"mt-3 mb-5"}>
+        <NavbarBrand>
+          <img className={styles.logo} src={Logo} alt="audio wizard" />
         </NavbarBrand>
         <Nav>
           <Button color="info"> Mon compte </Button>

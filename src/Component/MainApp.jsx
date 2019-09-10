@@ -3,7 +3,7 @@ import React from "react";
 import { Row, Col } from "reactstrap";
 
 import Layout from "./Layout";
-import ButtonMainApp from "./Component/ButtonMainApp";
+import ButtonMainApp from "./ButtonMainApp";
 
 let MainApp = () => {
   return (

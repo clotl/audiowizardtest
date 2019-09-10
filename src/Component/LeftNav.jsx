@@ -16,7 +16,7 @@ const LeftNav = () => {
         <NavLink className={`${styles.itemMenuBlue} pt-4 pb-4 d-flex justify-content-center`} href="/trypatient/">
           Patients en essai
         </NavLink>
-        <NavLink className={`${styles.itemMenuBlue} pt-4 pb-4 d-flex justify-content-center`} href="/components/">
+        <NavLink className={`${styles.itemMenuBlue} pt-4 pb-4 d-flex justify-content-center`} href="/materialpatients/">
           Patients appareillés
         </NavLink>
         <NavLink className={`${styles.itemMenuBlue} pt-4 pb-4 d-flex justify-content-center`} href="/reminders/">

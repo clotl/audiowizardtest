@@ -5,7 +5,7 @@ import { Row, Col } from "reactstrap";
 import Layout from "./Layout";
 import ButtonMainApp from "./Component/ButtonMainApp";
 
-let MainApp = () => {
+let MainApp = => {
   return (
     <Layout>
       <Row>

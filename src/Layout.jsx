@@ -13,8 +13,8 @@ const Layout = ({ child }) => {
       </Row>
       <Row>
         <LeftNav />
-        <MainApp />
-        {/* <Col className={"pt-4 pb-4"}> {child} </Col> */}
+        {/* <MainApp /> */}
+        <Col className={"pt-4 pb-4"}> {child} </Col>
       </Row>
     </Container>
   );

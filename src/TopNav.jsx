@@ -1,19 +1,22 @@
 import React from "react";
-import { Navbar, NavbarBrand, Nav, NavItem, NavLink, Button } from "reactstrap";
-import Logo from "./audiowizard.png";
+import { Navbar, NavbarBrand, Nav, Col } from "reactstrap";
+import { Button } from "reactstrap";
+import Logo from "./assets/audiowizard.png";
+
+import styles from "./TopNav.module.css";
 
 const TopNav = () => {
   return (
-    <div>
+    <Col>
       <Navbar>
-        <NavbarBrand>
+        <NavbarBrand className={styles.logo}>
           <img src={Logo} alt="audio wizard" />
         </NavbarBrand>
         <Nav>
-          <Button color="info"> Thibaut Gressier </Button>
+          <Button color="info"> Mon compte </Button>
         </Nav>
       </Navbar>
-    </div>
+    </Col>
   );
 };
 

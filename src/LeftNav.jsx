@@ -1,36 +1,30 @@
 import React from "react";
-import { Navbar, Nav, NavItem, NavLink } from "reactstrap";
+import { Navbar, Nav, NavItem, NavLink, Col } from "reactstrap";
+
+import styles from "./LeftNav.module.css";
 
 const LeftNav = () => {
   return (
-    <div>
+    <div className={"d-flex align-items-start"}>
       <Navbar>
-        <Nav>
-          <NavItem>
-            {/* <NavLink href="/components/"></NavLink> */}
-            Première visite
-          </NavItem>
-          <NavItem>
-            {/* <NavLink href="/components/"></NavLink> */}
-            Adaptation
-          </NavItem>
-          <NavItem>
-            {/* <NavLink href="/components/"></NavLink> */}
-            Patient en essai
-          </NavItem>
-          <NavItem>
-            {/* <NavLink href="/components/"></NavLink> */}
-            Patient appareillé
-          </NavItem>
-          <NavItem>
-            {/* <NavLink href="/components/"></NavLink> */}
-            Relance
-          </NavItem>
-          <NavItem>
-            {/* <NavLink href="/components/"></NavLink> */}
-            Statistiques
-          </NavItem>
-        </Nav>
+        <NavLink className={styles.itemMenuOrange} href="/components/">
+          Première visite
+        </NavLink>
+        <NavLink className={styles.itemMenuBlue} href="/components/">
+          Adaptation
+        </NavLink>
+        <NavLink className={styles.itemMenuBlue} href="/components/">
+          Patients en essai
+        </NavLink>
+        <NavLink className={styles.itemMenuBlue} href="/components/">
+          Patients appareillés
+        </NavLink>
+        <NavLink className={styles.itemMenuBlue} href="/components/">
+          Relance
+        </NavLink>
+        <NavLink className={styles.itemMenuBlue} href="/components/">
+          Statistiques
+        </NavLink>
       </Navbar>
     </div>
   );

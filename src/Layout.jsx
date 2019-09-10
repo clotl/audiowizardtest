@@ -1,22 +1,24 @@
 import React from "react";
 import TopNav from "./TopNav";
 import LeftNav from "./LeftNav";
+import MainApp from "./MainApp";
 import { Row, Col } from "reactstrap";
+
+import styles from "./Layout.module.css";
 
 const Layout = ({ child }) => {
   return (
     <div>
       <Row>
-        <Col>
-          <TopNav />
-        </Col>
+        <TopNav />
       </Row>
       <Row>
-        <Col>
+        <Col sm="2" lg="2">
           <LeftNav />
         </Col>
         <Col>
-          <section>{child}</section>
+          {/* <MainApp /> */}
+          {child}
         </Col>
       </Row>
     </div>
